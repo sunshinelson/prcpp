@@ -20,3 +20,45 @@ Info: Nothing to build for HelloWorld
 Info: Internal Builder is used for build
 g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HelloWorld.o" "..\\src\\HelloWorld.cpp" 
 g++ -o HelloWorld.exe "src\\HelloWorld.o" 
+Info: Nothing to build for FirstProject
+11:36:03 **** Incremental Build of configuration Debug for project HelloWorld ****
+Info: Internal Builder is used for build
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SpeicherbedarfPrimTypen.o" "..\\src\\SpeicherbedarfPrimTypen.cpp" 
+..\src\SpeicherbedarfPrimTypen.cpp:12:11: error: '::main' must return 'int'
+ void main(){
+           ^
+Info: Nothing to build for FirstProject
+11:36:35 **** Incremental Build of configuration Debug for project HelloWorld ****
+Info: Internal Builder is used for build
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SpeicherbedarfPrimTypen.o" "..\\src\\SpeicherbedarfPrimTypen.cpp" 
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HelloWorld.o" "..\\src\\HelloWorld.cpp" 
+g++ -o HelloWorld.exe "src\\HelloWorld.o" "src\\SpeicherbedarfPrimTypen.o" 
+src\SpeicherbedarfPrimTypen.o: In function `main':
+C:\Users\Davina\workspacecpp\HelloWorld\Debug/../src/SpeicherbedarfPrimTypen.cpp:12: multiple definition of `main'
+src\HelloWorld.o:C:\Users\Davina\workspacecpp\HelloWorld\Debug/../src/HelloWorld.cpp:12: first defined here
+collect2.exe: error: ld returned 1 exit status
+11:38:01 **** Incremental Build of configuration Debug for project FirstProject ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SpeicherbedarfPrimTypen.o "..\\SpeicherbedarfPrimTypen.cpp" 
+..\SpeicherbedarfPrimTypen.cpp:2:1: warning: "/*" within comment [-Wcomment]
+ /*
+ ^
+g++ -o FirstProject.exe SpeicherbedarfPrimTypen.o 
+11:38:04 **** Incremental Build of configuration Debug for project HelloWorld ****
+Info: Internal Builder is used for build
+g++ -o HelloWorld.exe "src\\HelloWorld.o" "src\\SpeicherbedarfPrimTypen.o" 
+src\SpeicherbedarfPrimTypen.o: In function `main':
+C:\Users\Davina\workspacecpp\HelloWorld\Debug/../src/SpeicherbedarfPrimTypen.cpp:12: multiple definition of `main'
+src\HelloWorld.o:C:\Users\Davina\workspacecpp\HelloWorld\Debug/../src/HelloWorld.cpp:12: first defined here
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for FirstProject
+11:39:38 **** Incremental Build of configuration Debug for project FirstProject ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SpeicherbedarfPrimTypen.o "..\\SpeicherbedarfPrimTypen.cpp" 
+..\SpeicherbedarfPrimTypen.cpp:2:1: warning: "/*" within comment [-Wcomment]
+ /*
+ ^
+g++ -o FirstProject.exe SpeicherbedarfPrimTypen.o 
+11:39:40 **** Incremental Build of configuration Debug for project HelloWorld ****
+Info: Internal Builder is used for build
+g++ -o HelloWorld.exe "src\\HelloWorld.o" 

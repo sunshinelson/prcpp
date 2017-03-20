@@ -1,0 +1,10 @@
+11:39:38 **** Incremental Build of configuration Debug for project FirstProject ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SpeicherbedarfPrimTypen.o "..\\SpeicherbedarfPrimTypen.cpp" 
+..\SpeicherbedarfPrimTypen.cpp:2:1: warning: "/*" within comment [-Wcomment]
+ /*
+ ^
+g++ -o FirstProject.exe SpeicherbedarfPrimTypen.o 
+
+11:39:40 Build Finished (took 1s.653ms)
+
