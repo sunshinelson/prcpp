@@ -1,0 +1,17 @@
+/*
+ * utility.h
+ *
+ *  Created on: 20.03.2017
+ *      Author: Davina
+ */
+
+#ifndef UTILITY_H_
+#define UTILITY_H_
+
+
+
+
+
+#endif /* UTILITY_H_ */
+
+int ggT(int, int);

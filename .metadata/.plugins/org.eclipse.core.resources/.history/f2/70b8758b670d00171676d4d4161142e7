@@ -1,0 +1,17 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 20.03.2017
+ *      Author: Davina
+ */
+
+#include <iostream>
+#include "utility.h"
+using namespace std;
+
+int main (){
+	cout << "!!!Hello World!!!" << endl;
+
+}
+
+

@@ -1,0 +1,8 @@
+13:22:01 **** Incremental Build of configuration Debug for project Lesson2 ****
+Info: Internal Builder is used for build
+g++ -o Lesson2.exe "class_example_compact\\class_example_compact.o" "class_example_split\\class_example_split.o" "point\\point.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+
+13:22:02 Build Finished (took 356ms)
+

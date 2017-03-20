@@ -1,0 +1,7 @@
+13:24:41 **** Incremental Build of configuration Debug for project GGT ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o GGT.exe main.o utility.o 
+
+13:24:44 Build Finished (took 2s.526ms)
+

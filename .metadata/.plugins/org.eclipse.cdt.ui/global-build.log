@@ -62,3 +62,34 @@ g++ -o FirstProject.exe SpeicherbedarfPrimTypen.o
 11:39:40 **** Incremental Build of configuration Debug for project HelloWorld ****
 Info: Internal Builder is used for build
 g++ -o HelloWorld.exe "src\\HelloWorld.o" 
+Info: Nothing to build for FirstProject
+Info: Nothing to build for HelloWorld
+11:52:56 **** Rebuild of configuration Debug for project Lesson2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "class_example_split\\class_example_split.o" "..\\class_example_split\\class_example_split.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "point\\point.o" "..\\point\\point.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "class_example_compact\\class_example_compact.o" "..\\class_example_compact\\class_example_compact.cpp" 
+g++ -o Lesson2.exe "class_example_compact\\class_example_compact.o" "class_example_split\\class_example_split.o" "point\\point.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for FirstProject
+13:21:59 **** Rebuild of configuration Debug for project GGT ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o utility.o "..\\utility.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o GGT.exe main.o utility.o 
+Info: Nothing to build for HelloWorld
+13:22:01 **** Incremental Build of configuration Debug for project Lesson2 ****
+Info: Internal Builder is used for build
+g++ -o Lesson2.exe "class_example_compact\\class_example_compact.o" "class_example_split\\class_example_split.o" "point\\point.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for GGT
+13:23:37 **** Incremental Build of configuration Debug for project GGT ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o GGT.exe main.o utility.o 
+13:24:41 **** Incremental Build of configuration Debug for project GGT ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o GGT.exe main.o utility.o 

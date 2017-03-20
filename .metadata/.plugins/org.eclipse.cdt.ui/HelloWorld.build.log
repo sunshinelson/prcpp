@@ -1,6 +1,1 @@
-11:39:40 **** Incremental Build of configuration Debug for project HelloWorld ****
-Info: Internal Builder is used for build
-g++ -o HelloWorld.exe "src\\HelloWorld.o" 
-
-11:39:41 Build Finished (took 727ms)
-
+Info: Nothing to build for HelloWorld

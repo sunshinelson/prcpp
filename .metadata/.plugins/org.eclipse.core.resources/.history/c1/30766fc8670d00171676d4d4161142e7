@@ -1,0 +1,18 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 20.03.2017
+ *      Author: Davina
+ */
+
+#include <iostream>
+#include "utility.h"
+using namespace std;
+
+int main (){
+	std::cout << ggt(12,4) << std::endl;
+	std::cout << __cplusplus << std::endl;
+	return 0;
+}
+
+
